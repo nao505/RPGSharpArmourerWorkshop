@@ -21,11 +21,11 @@ public final class RPGSharpArmourerWorkshop extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        instance = this;
         if (!RPGSharpAPI.isModBukkit()) {
             System.out.println("모드 서버 (CatBukkit) 에서만 적용됩니다.");
             return;
         }
+        instance = this;
         saveDefaultConfig();
         VariablesReader.read();
         Bukkit.getPluginManager().registerEvents(new RPGItemUpdateListener(), this);
