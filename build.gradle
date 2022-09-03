@@ -28,7 +28,7 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation fileTree(include: ['*.jar'], dir: 'C:\\Users\\pseon\\Desktop\\Libs\\RpgSharp\\')
-    compileOnly 'org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT'
+    implementation fileTree(include: ['*.jar'], dir: 'C:\\Users\\pseon\\Desktop\\Libs\\Bukkit\\spigot-1.12.2.jar')
 }
 
 def targetJavaVersion = 8

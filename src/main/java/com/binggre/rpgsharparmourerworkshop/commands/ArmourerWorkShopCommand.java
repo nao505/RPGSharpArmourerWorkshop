@@ -61,6 +61,7 @@ public class ArmourerWorkShopCommand implements CommandExecutor {
                 variables.NBT_BASE.put(DATA_CODE, nbtBase.toString());
                 VariablesWriter.write(DATA_CODE);
                 sender.sendMessage(DATA_CODE + " 아이템에 스킨을 적용했습니다.");
+                sender.sendMessage("RPGItem 업데이트 스케줄러에의해 스킨이 적용되니 잠시 기다려주세요");
                 break;
             }
             case "제거": {
