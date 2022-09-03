@@ -1,0 +1,7 @@
+name: RPGSharpArmourerWorkshop
+version: '${version}'
+main: com.binggre.rpgsharparmourerworkshop.RPGSharpArmourerWorkshop
+depend: [ RpgSharp ]
+authors: [ binggre ]
+commands:
+  워크샵스킨:
